@@ -19,4 +19,4 @@ USER_ID=your_cqu_id
 USER_PASSWORD=your_secret_password
 IMPLICIT_WAIT=5
 
-Keep in mind that include this env file in .ignore file for your personal data security reason. Do not upload it to git.
+Keep in mind that include this env file in ***.gitignore*** file for your personal data security reason. Do not upload it to git.
