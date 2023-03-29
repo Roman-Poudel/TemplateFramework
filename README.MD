@@ -15,6 +15,7 @@
 - *SELENIUM-API 4.8.1*
 - *SELENIUM-DEVTOOLS V1108*
 - *EXTENT-REPORT 5.0.8*
+- *java-dotenv 5.2.2
 
 ### NOTE: Create a *.env* file in root folder with these information
 BASE_URL=https://my.cqu.edu.au/  

@@ -67,6 +67,12 @@
       <artifactId>extentreports</artifactId>
       <version>5.0.8</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.github.cdimascio/java-dotenv -->
+    <dependency>
+      <groupId>io.github.cdimascio</groupId>
+      <artifactId>java-dotenv</artifactId>
+      <version>5.2.2</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -118,4 +124,15 @@
       </plugins>
     </pluginManagement>
   </build>
+
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>31.0.1-jre</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>

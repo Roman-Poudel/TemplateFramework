@@ -13,8 +13,8 @@ public class LoginToStudentPortalTestSuite extends TestSetup {
     public void loginToStudentPortalSuccess() {
         var loginPage = new LoginPage(driver);
         loginPage.clickContinueButton()
-                .setUserNameOrStudentId("roman.poudel@cqumail.com")
-                .setPassword("s020994#")
+                .setUserNameOrStudentId(cquUserID)
+                .setPassword(userPassword)
                 .clickLoginButton();
         // assertEquals("GOOD EVENING ROMAN!", loginPage.getPageTitle().toString());
 
